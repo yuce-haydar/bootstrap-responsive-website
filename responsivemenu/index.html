@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/0ab700ef63.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</head>
+<body>
+   <header>
+    <nav class="menu">
+        <span class="logo">LOGO</span>
+        <ul>
+            <li class="menu"><a href="">Anasayfa</a></li>
+            <li class="menu"><a href="">Anasayfa</a></li>
+            <li class="menu"><a href="">Anasayfa</a></li>
+            <li class="menu"><a href="">Anasayfa</a></li>
+
+            <li class="buton"> <a href="#" class="buton"><i class="fas fa-bars buton  "></i></a></li>
+
+        </ul>
+    </nav>
+   </header>
+   <script>
+
+    $(document).ready(function(){
+        $(".buton").click(function(){
+
+            $(".menu").toggleClass(" nav ul li.menu.goster")
+        })
+    })
+
+   </script>
+</body>
+</html>
